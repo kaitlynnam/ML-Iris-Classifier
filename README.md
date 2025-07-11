@@ -36,10 +36,12 @@ acodeblock
    python -m venv iris_classifier
    source iris_classifier/bin/activate #macOS/Linux
    iris_classifier\Scripts\activate #Windows
+   ```
 
 3. Install dependencies
    ```
    pip install -r requirements.txt
+   ```
 
 4. Run the model
    ```
@@ -49,6 +51,7 @@ acodeblock
    Generate the graphs
    ```
    python visualize.py
+   ```
 
 
 
