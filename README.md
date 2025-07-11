@@ -13,7 +13,7 @@ Built with:
 
 
 
-##What I learned
+## What I learned
 How to load and explore datasets
 How KNN works and how k affects a model's performance
 How to write ML scripts with user interactive features
@@ -24,7 +24,7 @@ acodeblock
 
 
 
-##Getting Started
+## Getting Started
 1. Clone this repo
    'git clone https://github.com/kaitlynnam/ML-Iris-Classifier
    cd ML-Iris-Classifier'
@@ -46,6 +46,6 @@ acodeblock
 
 
 
-##Dataset
+## Dataset
 The Iris dataset is a famous dataset introduced by Ronald Fisher, it is a simple and beginner friendly dataset
 
