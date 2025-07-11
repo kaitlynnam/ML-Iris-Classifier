@@ -28,7 +28,7 @@ acodeblock
 1. Clone this repo
    ```
    git clone https://github.com/kaitlynnam/ML-Iris-Classifier
-   cd ML-Iris-Classifier```
+   cd ML-Iris-Classifier
 
 2. Create and activate a virtual environment
    '''python -m venv iris_classifier
