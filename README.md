@@ -1,7 +1,7 @@
 # ML-Iris-Classifier
 Classify Iris flowers and explore model accuracy using k-Nearest Neighbors — written in Python.
 
-##Features
+## Features
 Trains a KNN model on the classsic Iris dataset and visulize the data based on different perameters 
 Allows users to:
   Test and tune the model's accuracy by adjusting k
