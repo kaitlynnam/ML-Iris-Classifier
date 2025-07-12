@@ -6,7 +6,8 @@ Trains a KNN model on the classsic Iris dataset and visulize the data based on d
 Allows users to:
   - Test and tune the model's accuracy by adjusting k
   - Predict flower species using custom sepal/petal measurements
-Built with:
+    
+# Built with:
   - scikit-learn
   - numpy
   - matplotlib
