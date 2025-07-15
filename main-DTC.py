@@ -1,4 +1,4 @@
-"""from sklearn import datasets
+from sklearn import datasets
 from sklearn import tree
 
 import matplotlib.pyplot as plt
@@ -7,13 +7,13 @@ iris = datasets.load_iris()
 
 X, y = iris.data, iris.target
 
-clf = tree.DecisionTreeClassifier(random_state=0)
+clf = tree.DecisionTreeClassifier(random_state=0, max_depth=10, min_samples_leaf=1, criterion='gini', min_samples_split= 5, max_features='log2')
 clf = clf.fit(X, y)
 
 tree.plot_tree(clf)
 plt.show()
 
-print(clf.predict([[2,2,2,2]]))"""
+print(clf.predict([[2,2,2,2]]))
 
 """print(clf.predict_proba([[2,2,2,2]]))"""
 
@@ -33,7 +33,7 @@ tree.plot_tree(clf)
 plt.show()"""
 
 
-import matplotlib.pyplot as plt
+'''import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeRegressor
 import numpy as np
 
@@ -58,3 +58,4 @@ plt.title("Regression Prediction")
 plt.legend()
 plt.show()
 
+'''

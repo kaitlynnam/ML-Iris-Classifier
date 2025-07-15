@@ -19,7 +19,8 @@ def main():
 
     # Initialize the KNN model (k=1)
     k=1
-    knn = KNeighborsClassifier(n_neighbors=k)
+    knn = KNeighborsClassifier(n_neighbors=k,)
+
 
     # Train the model
     knn.fit(X_train, y_train)
