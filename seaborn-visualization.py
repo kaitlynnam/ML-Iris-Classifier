@@ -43,7 +43,7 @@ df['species'] = df['target'].map({0: 'setosa', 1: 'versicolor', 2: 'virginica'})
 
 
 #Select only 2 columns
-#df_subset = df[df['petal width (cm)', 'sepal width (cm)']]
+#df_subset = df[['petal width (cm)', 'sepal width (cm)']]
 
 # Filter by numeric range
 df_filtered = df[df['petal width (cm)'] > 1.5]
